@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #d47b7b;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    width: 55%;
+    background: white;
+    margin: 50px auto;
+    color: black;
+    box-shadow: 0px 0px 4px 0px;
+    padding: 75px;
+}
+
+.clock-container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px;
+    background-color: tomato;
+    color: white;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.clock-container span {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+.clock-container p {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.clone {
+    size: 3px;
+    width: 100px;
+    height: 10px;
+    margin: 0px 0px;
+}
+.clone::after{
+    content: '';
+    display: block;
+    border-bottom: 5px solid;
+    width: 4px;
+    border-radius: 50%;
+    margin: 5px 22px;
+}
+.clone::before{
+    content: '';
+    display: block;
+    border-bottom: 5px solid;
+    width: 4px;
+    border-radius: 50%;
+    margin: 5px 22px;
+}
+
+.bottom {
+    height: 7px;
+    width: 100%;
+    background: #b9b0b0;
+}
+
+.progress {
+    width: 50%;
+    height: 100%;
+    background: black;
+}
+
+.progress-bar {
+    width: 44%;
+    height: 100%;
+    background: black;
+}
